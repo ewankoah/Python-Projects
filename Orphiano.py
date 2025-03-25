@@ -142,6 +142,6 @@ def yield_balances(accounts):
             yield account.balance  # 'yield' used
 
 # Running the program
-if __name__ == "__main__":  # Fixed the issue here
+if __name__ == "__main__": 
     print(outer_function())  # Prints welcome message
     main()
